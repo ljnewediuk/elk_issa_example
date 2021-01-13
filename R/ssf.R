@@ -11,7 +11,7 @@
 
 ########################
 ##### Load packages ----
-libs <- c('lubridate', 'amt', 'data.table', 'dplyr', 'ggplot2', 'glmmTMB')
+libs <- c('data.table', 'dplyr', 'ggplot2', 'glmmTMB')
 lapply(libs, require, character.only=TRUE)
 
 ####################
